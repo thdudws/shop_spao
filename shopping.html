@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPAO</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/index.js"></script>
+    <script src="js/ajax.js"></script>
+    
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <header>
+            <div id="logo">
+                <a href="#"><img src="img/top_logo.png" alt="" class="logo_img"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" style="color: #b33131;">할인 상품</a></li>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">우먼</a></li>
+                    <li><a href="#">맨</a></li>
+                    <li><a href="#">컬래버레이션</a></li>
+                    <li><a href="#">키즈</a></li>
+                    <li><a href="#">커뮤니티</a></li>
+                    <li><a href="#">런칭 캘린더</a></li>
+                    <li><a href="#">매거진</a></li>
+                </ul>
+            </nav>
+            <div id="icons">
+                <div class="icon">
+                    <img src="img/top_mypage.png" alt="">
+                    <img src="img/top_search.png" alt="">
+                    <img src="img/top_wish.png" alt="">
+                    <img src="img/top_cart_pc.png" alt="">
+                </div>
+                <div id="user">
+                    <p>LOGIN</p>
+                    <p>ORDER</p>
+                </div>
+            </div>
+            
+        </header>
+
+        <!-- 메인 슬라이드 -->
+        <div class="swiper mySwiper first">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/slide1.png" alt="">
+                    <div class="slider_text">
+                        <h4>CASUAL COLLECTION</h4>
+                        <h1>MINIMAL LEATHER COLLECTION</h1>
+                        <p>미니멀 아웃핏을 완성시키는 첫번째 선택</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide2.png" alt="">
+                    <div class="slider_text">
+                        <h4>CASUAL</h4>
+                        <h1>3-LAYER TECHNICAL JACKET</h1>
+                        <p>인/아웃도어를 자유롭게 <br>
+                            넘나드는 기능성 자켓</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide3.png" alt="">
+                    <div class="slider_text">
+                        <h4>STYLING</h4>
+                        <h1>PUFFER STYLING</h1>
+                        <p>베이직 푸퍼로 완성하는 겨울 스타일링</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide4.jpg" alt="">
+                    <div class="slider_text">
+                        <h4>KIDS</h4>
+                        <h1>BACK TO THE SCHOOL</h1>
+                        <p>새로운 마음으로 맞이하는 신학기</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide5.jpg" alt="">
+                    <div class="slider_text">
+                        <h4>SHOWCASE</h4>
+                        <h1>24 F/W 간절기 파자마 컬렉션</h1>
+                        <p>리오넬 소재의 스파오 파자마 컬럭션</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide6.jpg" alt="">
+                    <div class="slider_text">
+                        <h4>CASUAL COLLECTION</h4>
+                        <h1>COMFORT IN DAILY</h1>
+                        <p>편안한 실루엣의 트렌디한 스파오 시티보이 컬렉션</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <main>
+            <h1>위클리 베스트</h1>
+
+            <div id="category">
+                <ul>
+                    <li><a href="#">우먼</a></li>
+                    <li><a href="#">맨</a></li>
+                    <li><a href="#">키즈</a></li>
+                    <li><a href="#">파자마</a></li>
+                </ul>
+            </div>
+
+            <div id="product_b">
+
+                <div class="img_box_wrap"></div>
+                <div class="img_box_wrap"></div>
+                <div class="img_box_wrap"></div>
+                <div class="img_box_wrap"></div>
+
+                <!-- 위클리 베스트 두번째 줄 -->
+                <div class="img_box_wrap"></div>
+                <div class="img_box_wrap"></div>
+                <div class="img_box_wrap"></div>
+                <div class="img_box_wrap"></div>
+
+            </div>
+
+            <script>
+                
+            </script>
+
+            <!-- 신상품 슬라이드 -->
+
+            <div id="product_n">
+
+                <h1>신상품</h1>
+
+                <div class="swiper mySwiper second">
+                
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide2"></div>                 
+
+                    </div>
+                    
+                </div>
+
+            </div>
+            <!-- <div class="swiper-button-next next2"></div>
+                    <div class="swiper-button-prev prev2"></div> -->
+        </main>
+
+        <div id="banner">
+
+            <a href="https://careers.eland.co.kr/announce/recruit/hxCdGGgXgLYdDc5S6NsPRkd3cMPG" target="_blank"
+                rel="noreferrer noopener"><img src="img/banner2.jpg" alt=""></a>
+            <a href="https://www.spao.com/myshop/membership.html" target="_blank" rel="noreferrer noopener"><img
+                src="https://www.spao.com/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/8fb497a08683204c1bf6b72f88e286ec.webp" alt="">
+            </a>
+
+        </div>
+
+        <footer style="color: #8f8f8f;">
+
+            <div id="foot_l">
+                <p class="number">1670-9600</p>
+
+                <div id="time">
+                    <p><span>상담시간 : 오전 10시~오후5시(토요일,공휴일 휴무)</span> <br>
+                        email : spao@eland.co.kr(단체주문 문의) <br>
+                        email : sapo_mkt@eland.co.kr(마케팅 협찬 문의)</p>
+                </div>
+
+                <div id="notice">
+                    <p>(주)이랜드 월드 패션 사업부 | 사업자등록번호 : 113-85-19030 [사업자정보확인] | 통신판매업 신고번호 : 제 2005-01053호</p>
+                    <p>대표이사 : 최운식 ㅣ 서울특별시 금천구 가산디지털1로 159(가산동) 이랜드가산동사옥 | 개인정보 보호책임자:최운식 | 호스팅 서비스 제공자:카페24(주)</p>
+                    <p>사옥 주소로 발송하시면 교환·환불이 불가하므로, 교환·환불은 사이트내에서 신청해주시기 바랍니다.</p>
+                </div>
+
+                <div id="foot_icon">
+                    <p><img src="https://www.spao.com/morenvyimg/emblem01.svg" alt=""></p>
+                    <p class="line"></p>
+                    <p><a href="#"><img src="img/sns_face.png" alt="페이스북"></a></p>
+                    <p><a href="#"><img src="img/sns_insta.png" alt="인스타"></a></p>
+                    <p><a href="#"><img src="img/sns_you.png" alt="유튜브"></a></p>
+                    <p><a href="#"><img src="img/sns_blog.png" alt="블로그"></a></p>
+                    <p><a href="#"><img src="img/sns_post.png" alt="포스트"></a></p>
+                </div>
+
+            </div>
+
+            <div id="foot_r">
+
+                <ul>
+                    <li><a href="#">브랜드 소개</a></li>
+                    <li><a href="#">오프라인 매장 안내</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#"><span class="one_p">개인정보 처리방침</span></a></li>
+                    <li><a href="#">약관안내</a></li>
+                    <li><a href="#">윤리경영</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">회원혜택</a></li>
+                    <li><a href="#">채용정보 및 인사제도</a></li>
+                    <li><a href="#">자주묻는질문 FAQ</a></li>
+                </ul>
+
+            </div>
+
+            <div id="foot_bt">
+                <p class="copy">Copyright ⓒ 스파오닷컴 All Right Reserved.</p>
+
+                <div id="bt_icon">
+
+                    <div class="an">
+                        <img src="img/icon_lgec.png" alt="구매안전">
+                        <p class="p_hover">구매안전(에스크로)서비스</p>
+                    </div>
+
+                    <div class="an">
+                        <img src="img/icon_app1.png" alt="APP1" style="margin-right: 10px;">
+                        <img src="img/icon_app2.png" alt="APP2">
+                        <p class="app">스파오 APP 다운로드</p>
+                    </div>
+
+                    <div class="an">
+                        <img src="img/icon_global.png" alt="글로벌">
+                        <p class="p_hover">대한민국 | 한국어 ＞</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="talk">
+                <img src="img/spao_talk.png" alt="">
+            </div>
+
+        </footer>
+    </div>
+
+   
+
+</body>
+
+</html>
